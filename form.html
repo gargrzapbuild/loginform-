@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, 
+       initial-scale=1"
+    />
+    <style>
+      body {
+        background-image: url("https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?cs=srgb&dl=pexels-guillaume-meurice-1591447.jpg&fm=jpg");
+        background-size: cover;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+      }
+      h1 {
+        color: white;
+      }
+      button {
+        background-color: blue;
+        width: 100%;
+        color: orange;
+        padding: 15px;
+        margin: 10px 0px;
+        cursor: pointer;
+      }
+      input[type="text"], input[type="password"] {
+        width: 100%;
+        margin: 8px 0;
+        padding: 12px 20px;
+        display: inline-block;
+        border: 2px salmon;
+        box-sizing: border-box;
+      }
+      .cancelbutton {
+        width: auto;
+        padding: 5px 5px;
+        margin: 5px 5px;
+      }
+      .container {
+        width: 200px;
+        display:flex;
+        flex-direction:column;
+        align-self: center;
+        border-radius: 5px;
+        padding: 25px;
+        background-color: whitesmoke;
+      }
+    </style>
+  </head>
+  <body>
+    <center><h1>Student Login Form</h1></center>
+
+    <div class="container">
+      <label>Your Username:</label>
+      <input type="text" placeholder="Enter ur username" required />
+      <label>password:</label>
+      <input type="password" placeholder="enter ur password" required />
+      <button type=" submit">Login</button>
+      <input type="checkbox" /> Remember me
+      <button type="button">Cancel</button>
+      Forgot <a href="#">password?</a>
+    </div>
+  </body>
+</html>
